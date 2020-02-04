@@ -1,0 +1,45 @@
+.content{
+    
+    min-height:100%;
+    width:100%;
+    background-color:#c6c97b;
+    display:flex;
+}
+
+.textholder{
+    width:50%;
+    padding:20px;
+    background-color: #c6c97b;
+
+    h1{
+        padding-top:80px;
+        padding-bottom:15px;
+        text-align:center;
+        font-size:290%;
+        font-family: sans-serif;
+        color:#644d3c;
+    }
+
+    p{
+        padding:10px;
+        font-size:150%;
+        font-family:sans-serif;
+        color:#644d3c;
+        line-height:1.6;
+
+    }
+
+}
+
+.imgholder{
+    width:50%;
+    img{
+        max-width:100%;
+        height:auto;
+        margin-bottom:-5px;
+        
+        
+    }
+    
+
+}

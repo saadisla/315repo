@@ -1,0 +1,29 @@
+.banner{
+    height:100%;
+    background-image: linear-gradient(to right, rgba(0,0,0,.7),rgba(0,0,0,0)), url(../images/banner.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display:flex;
+    
+    align-items: center;
+
+
+    .callout{
+        color:#dec8af;
+        font-family: sans-serif;
+        text-align: center;
+        margin-left:100px;
+        
+        h1{
+            font-size:230%;
+        }
+
+        h4{
+            font-size:180%;
+        }
+
+    }
+}

@@ -1,0 +1,64 @@
+.contact{
+    height:100%;
+    background-image: linear-gradient(to right, rgba(0,0,0,.7),rgba(0,0,0,0)), url(../images/contactpic.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+    text-decoration: none;
+    font-family:sans-serif;
+    color:#dec8af;
+
+
+    .callout{
+        color:#dec8af;
+        font-family: sans-serif;
+        text-align: center;
+        margin-left:100px;
+        
+        h1{
+            font-size:230%;
+        }
+
+        h4{
+            font-size:180%;
+        }
+
+    }
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dec8af;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button{
+  background-color: #dec8af;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #c6c97b;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #644d3c;
+  padding: 20px;
+}
