@@ -16,7 +16,7 @@ function initNav(){
 function loadContent(pageName){
 
     var pageContent = PROVIDER.getPageContent(pageName);
-
+    SAAD_UTILITY.trace("app.js line 14", pageContent);
     $(".content").html(pageContent);
 
     initNav();
