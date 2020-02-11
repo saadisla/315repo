@@ -1,12 +1,8 @@
-function trace(fName, arg){
-    //console.log(fName, arg); 
-}
-
 function initNav(){
 
     $("a").click(function(e){
         var cp = PROVIDER.getCurrentPageName();
-        trace("initNav ", cp);
+        SAAD_UTILITY.trace("initNav ", cp);
         var btnId = e.currentTarget.id;
 
         if(cp!= btnId){
