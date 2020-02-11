@@ -1,0 +1,166 @@
+.section{
+    z-index:100;
+    min-height:100%;
+    width:100%;
+    background-color:#606374;
+    position:relative;
+    display:flex;
+}
+
+.textholder{
+    width:50%;
+    padding:20px;
+    background-color: #606374;
+
+    h1{
+        padding-top:90px;
+        padding-bottom:15px;
+        text-align:center;
+        font-size:290%;
+        font-family: sans-serif;
+        color:#e6e6e6;
+    }
+
+    p{
+        padding:10px;
+        font-size:150%;
+        font-family:sans-serif;
+        color:#e6e6e6;
+        line-height:1.6;
+
+    }
+
+}
+
+
+.imgholder{
+    width:50%;
+    background-image: url(../images/robot.jpg);
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin:border-box;
+
+}
+
+.imgholder2{
+    width:50%;
+    background-image: url(../images/corvus.jpg);
+    background-color:#9c90b5;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin:border-box;
+
+}
+
+.imgholder3{
+    width:50%;
+    background-image: url(../images/ghost.jpg);
+    background-color:#494b58;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin:border-box;
+
+}
+
+.imgholder4{
+    width:50%;
+    background-image: url(../images/pygmy.jpg);
+    background-color:#494b58;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin:border-box;
+
+}
+
+.imgholder5{
+    width:50%;
+    background-image: url(../images/maincity.jpg);
+    background-color:#494b58;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin:border-box;
+
+}
+
+.imgholder6{
+    width:50%;
+    background-image: url(../images/blustonn.jpg);
+    background-color:#494b58;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin:border-box;
+
+}
+
+.imgholder7{
+    width:50%;
+    background-image: url(../images/newhell.jpg);
+    background-color:#494b58;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin:border-box;
+
+}
+
+.imgholder8{
+    width:50%;
+    background-image: url(../images/medicorp.jpg);
+    background-color:#494b58;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin:border-box;
+
+}
+
+.imgholder9{
+    width:50%;
+    background-image: url(../images/swat.jpg);
+    background-color:#494b58;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin:border-box;
+
+}
+
+.imgholder10{
+    width:50%;
+    background-image: url(../images/giants.jpg);
+    background-color:#494b58;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin:border-box;
+
+}
+
+.imgholder11{
+    width:50%;
+    background-image: url(../images/atlas.jpg);
+    background-color:#494b58;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin:border-box;
+
+}
