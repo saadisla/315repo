@@ -10,7 +10,7 @@
             "path":"factions", "linkName":"<p>FACTIONS</p>"
         },
         {
-            "path":"socialmedia", "linkName":"<div class='link'><a href='https://www.instagram.com' target='_blank'><img src='../images/instagram.png'></a><a href='https://www.facebook.com' target='_blank'><img src='../images/facebook.png'></a><a href='https://www.twitter.com' target='_blank'><img src='../images/twitter.png'></a></div>"
+            "path":"socialmedia", "linkName":"<div class='link'><a href='https://www.instagram.com' target='_blank'><img src='./images/instagram.png'></a><a href='https://www.facebook.com' target='_blank'><img src='./images/facebook.png'></a><a href='https://www.twitter.com' target='_blank'><img src='./images/twitter.png'></a></div>"
         }
         
 
