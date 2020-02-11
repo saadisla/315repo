@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px; }
+
+.content {
+  height: 100%; }
+
+nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 101;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; }
+  nav a {
+    text-decoration: none;
+    color: #e6e6e6;
+    font-weight: bold;
+    padding: 5px; }
+  nav p {
+    padding: 3px; }
+  nav p:hover {
+    background-color: darkslategrey; }
+  nav .link {
+    display: flex;
+    justify-content: space-between; }
+    nav .link img {
+      width: 35px;
+      height: 35px; }
+    nav .link img:hover {
+      background-color: darkslategrey; }
+
+.banner {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../images/banner.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: red;
+  display: flex;
+  align-items: center; }
+  .banner .callout {
+    color: #e6e6e6;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 135px;
+    position: fixed; }
+    .banner .callout h1 {
+      font-size: 230%;
+      z-index: 1; }
+    .banner .callout h4 {
+      font-size: 180%; }
+
+.banner2 {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../images/banner2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: red;
+  display: flex;
+  align-items: center; }
+  .banner2 .callout {
+    color: #e6e6e6;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 135px;
+    position: fixed; }
+    .banner2 .callout h1 {
+      font-size: 230%;
+      z-index: 1; }
+    .banner2 .callout h4 {
+      font-size: 180%; }
+
+.banner3 {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../images/battle.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: red;
+  display: flex;
+  align-items: center; }
+  .banner3 .callout {
+    color: #e6e6e6;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 135px;
+    position: fixed; }
+    .banner3 .callout h1 {
+      font-size: 230%;
+      z-index: 1; }
+    .banner3 .callout h4 {
+      font-size: 180%; }
+
+.section {
+  z-index: 100;
+  min-height: 100%;
+  width: 100%;
+  background-color: #606374;
+  position: relative;
+  display: flex; }
+
+.textholder {
+  width: 50%;
+  padding: 20px;
+  background-color: #606374; }
+  .textholder h1 {
+    padding-top: 90px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 290%;
+    font-family: sans-serif;
+    color: #e6e6e6; }
+  .textholder p {
+    padding: 10px;
+    font-size: 150%;
+    font-family: sans-serif;
+    color: #e6e6e6;
+    line-height: 1.6; }
+
+.imgholder {
+  width: 50%;
+  background-image: url(../images/robot.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: border-box; }
+
+.imgholder2 {
+  width: 50%;
+  background-image: url(../images/corvus.jpg);
+  background-color: #9c90b5;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: border-box; }
+
+.imgholder3 {
+  width: 50%;
+  background-image: url(../images/ghost.jpg);
+  background-color: #494b58;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: border-box; }
+
+.imgholder4 {
+  width: 50%;
+  background-image: url(../images/pygmy.jpg);
+  background-color: #494b58;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: border-box; }
+
+.imgholder5 {
+  width: 50%;
+  background-image: url(../images/maincity.jpg);
+  background-color: #494b58;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: border-box; }
+
+.imgholder6 {
+  width: 50%;
+  background-image: url(../images/blustonn.jpg);
+  background-color: #494b58;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: border-box; }
+
+.imgholder7 {
+  width: 50%;
+  background-image: url(../images/newhell.jpg);
+  background-color: #494b58;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: border-box; }
+
+.imgholder8 {
+  width: 50%;
+  background-image: url(../images/medicorp.jpg);
+  background-color: #494b58;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: border-box; }
+
+.imgholder9 {
+  width: 50%;
+  background-image: url(../images/swat.jpg);
+  background-color: #494b58;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: border-box; }
+
+.imgholder10 {
+  width: 50%;
+  background-image: url(../images/giants.jpg);
+  background-color: #494b58;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: border-box; }
+
+.imgholder11 {
+  width: 50%;
+  background-image: url(../images/atlas.jpg);
+  background-color: #494b58;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: border-box; }
+
+.divider {
+  height: 80px;
+  width: 100%;
+  background-color: #494b58;
+  z-index: 100;
+  position: relative; }
