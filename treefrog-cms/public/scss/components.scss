@@ -70,3 +70,41 @@
     }
   }
 }
+
+.addSave{
+  background-color:mistyrose;
+  padding:20px;
+  width:50%;
+  button {
+    background-color: palevioletred; 
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom:4px;
+  
+  }
+  button:hover{
+    
+      background-color:maroon;
+  
+  }
+  input[type=text] {
+    width: 200px;
+    padding:5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+}
+
+.showData{
+  nav{
+    a{
+      text-decoration:none;
+      margin-right:10px;
+    }
+  }
+}

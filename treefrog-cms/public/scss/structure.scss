@@ -6,13 +6,14 @@
 }
 
 .ql-toolbar{
-  display:none;
+  display:flex;
+  
 }
 
 #editor{
   height:375px;
   margin-bottom:30px;
-  display:none;
+  display:flex;
 }
 
 html,
@@ -30,3 +31,4 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
