@@ -1,0 +1,444 @@
+.banner{
+    height:100%;
+    width:100%;
+    background-image: linear-gradient(to right, rgba(242,92,84,.6),rgba(242,92,84,.6)), url(../images/hero.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:red;
+
+    display:flex;
+    
+    align-items: center;
+
+
+    .callout{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        color:black;
+        font-family:sans-serif;
+        text-align: center;
+        vertical-align: center;
+
+        .yellowcircle{
+            background: #ffd972;
+            width: 400px;
+            height: 400px;
+            z-index:2;
+            border-radius: 50%;
+            text-align:center;
+            box-shadow: 0px 10px 6px #00000029;
+            display:flex;
+            flex-direction:column;
+        }
+        
+        
+      
+        h1{
+            top:239px;
+            margin-top:100px;
+            margin-left:-250px;
+            left:421px;
+            
+            
+            padding: 20px;
+            font-size:24px;
+            
+            display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            
+
+            p{
+                width:100%;
+                height:100%;
+                
+                
+            }
+
+            .sub{
+                width: 50%;
+                height:100%;
+                font-size:16px;
+                margin-top:-155px;
+                margin-left:100px;
+                font-weight:normal;
+
+            }
+
+            .head{
+                width:100%;
+                height:100%;
+                margin-top:130px;
+                
+                 
+            }
+
+            .smallcircle{
+                margin-left:190px;
+                margin-top:-150px;
+                width: 170px;
+                
+                background-color:#fcbcb8;
+                border-radius: 50%;
+                padding:30px;
+                height:170px;
+                font-size:10px;
+                 position: absolute;
+                 z-index:1;
+                font-weight:normal;
+                text-align:center;
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                box-shadow: 0px 10px 6px #00000029;
+            }
+
+        }
+
+        h4{
+            font-size:180%;
+        }
+
+    }
+
+}
+
+.banner2{
+    height:100%;
+    width:100%;
+    background-image: linear-gradient(to right, rgba(167,232,189,.8),rgba(167,232,189,.8)), url(../images/recipe-hero.jpg);
+    background-attachment: fixed;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-color:red;
+
+    display:flex;
+
+    .contentHolder{
+        margin-top:15px;
+        width:80%;
+        min-height:300px;
+        margin-top:200px;
+        
+        margin-left:130px;
+
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .foodUnit{
+            margin:10px;
+            width:48%;
+            min-height:275px;
+            
+            display:flex;
+
+            .imgHolder{
+                width:55%;
+                height:100%;
+                
+
+                .foodimg1{
+                    height:100%;
+                    width:100%;
+                    background-image: url(../images/recipe-pizza.jpg);
+                    
+                    border-radius:24px;
+                    
+                    background-position: center;
+                    background-size: cover;
+                }
+                .foodimg2{
+                    height:100%;
+                    width:100%;
+                    background-image: url(../images/recipe-burger.jpg);
+                    
+                    border-radius:24px;
+                    
+                    background-position: center;
+                    background-size: cover;
+                }
+                .foodimg3{
+                    height:100%;
+                    width:100%;
+                    background-image: url(../images/recipe-pilaf.jpg);
+                    
+                    border-radius:24px;
+                    
+                    background-position: center;
+                    background-size: cover;
+                }
+                .foodimg4{
+                    height:100%;
+                    width:100%;
+                    background-image: url(../images/recipe-chowmein.jpg);
+                    
+                    border-radius:24px;
+                    
+                    background-position: center;
+                    background-size: cover;
+                }
+
+            }
+
+            .textHolder{
+                width:45%;
+                height: 100%;
+                background-color:#FFFFFF;
+                border-radius:24px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .title{
+                    font-size:15px;
+                    font-weight:bold;
+                    letter-spacing:1.5px;
+                    text-decoration: underline;
+                }
+
+                .desc{
+                    margin-bottom:50px;
+                    width:130px;
+                    height:55px;
+                    font-size: 9px; 
+                    margin-top:10px;
+                    letter-spacing: .9px;
+                    text-align: left;
+                    
+                }
+
+                .time{
+                    padding:10px;
+                    display:flex;
+                    font-size:10px;
+                    align-items:center;
+                    .clock{
+                        background-image: url(../images/time.svg);
+                        width:23px;
+                        height:23px;
+                        object-fit:contain;
+                        margin-right:2px;
+                    }
+                    .serve{
+                        
+                        background-image: url(../images/servings.svg);
+                        width:23px;
+                        height:23px;
+                        object-fit:contain;
+                        margin-right:2px;
+                    }
+                    
+                }
+
+
+            }
+
+        }
+    }
+
+    .footer{
+        margin-right:300px;
+    }
+
+
+    .callout{
+        color:black;
+        font-family: sans-serif;
+        text-align: center;
+        margin-top:-80px;
+        position:fixed;
+      
+        .header{
+            margin-top:-175px;
+            font-size:25px;
+            z-index:1;
+        }
+
+        h4{
+            font-size:180%;
+        }
+
+    }
+
+}
+
+.banner3{
+    min-height:100%;
+    width:100%;
+    background-image: linear-gradient(to right, rgba(255,255,255,1),rgba(255,255,255,1)), url(../images/battle.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:white;
+
+    display:flex;
+    
+    align-items: center;
+
+
+    .callout{
+        width:100%;
+        height:auto;
+        display:flex;
+        justify-content:left;
+        color:black;
+        font-family:sans-serif;
+        text-align: left;
+        vertical-align: center;
+        flex-direction:column;
+        
+        
+        form{
+            margin-top:100px;
+            margin-left:100px;
+            
+
+            label{
+                font-weight:bold;
+                font-size:24px;
+                margin-bottom:20px;
+            }
+
+            input[type=text]{
+                
+                width:70%;
+                height:30px;
+                margin-bottom:20px;
+                font-size:20px;
+                border: none;
+                border-bottom: 2px solid black;
+            }
+
+            input[type=submit]{
+                text-align: center;
+                vertical-align: center;
+                font-size:25px;
+                height:60px;
+                width:350px;
+                background-color:#EFA7A7;
+                padding:20px;
+                border-radius:26px;
+                box-shadow: 5px 10px 6px #00000029;
+                border: none;
+                opacity:1;
+                padding-bottom:30px;
+            }
+        }
+      
+        h1{
+            font-size:230%;
+            z-index:1;
+        }
+
+        h4{
+            font-size:180%;
+        }
+
+    }
+
+}
+
+.banner4{
+    height:100%;
+    width:100%;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#ffd972;
+
+    display:flex;
+    
+    align-items: center;
+
+
+    .callout{
+        width:100%;
+        height:100%;
+        display:flex;
+        justify-content:center;
+        color:black;
+        font-family:sans-serif;
+        text-align: left;
+        vertical-align: center;
+        display: flex;
+        
+
+        .loginHolder{
+            margin-top:150px;
+            width:80%;
+            height: 70%;
+             
+            display:flex;
+            justify-content: center;
+
+            .divider{
+                width:40%;
+                height:100%;
+                background-color:#ffd972;
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align:left;
+
+                .heading{
+                    text-align:left;
+                    font-weight:bold;
+                    font-size:30px;
+                    margin-bottom:20px;
+                }
+
+                input[type=text]{
+                    border:none;
+                   border-bottom: 2px solid black;
+                   width:100%;
+                   background-color:#ffd972;
+                    
+                   margin-bottom:25px;
+
+                    ::placeholder{
+                        
+                            color: black;
+                    }
+
+                }
+
+                input[type=submit]{
+                    width:100%;
+                    border: none;
+                    height:40px;
+                    border-radius:26px;
+                    background-color: #ffd972;
+                    box-shadow: 0px 10px 6px #00000029;
+
+                }
+
+            }
+
+        }
+      
+        h1{
+            font-size:230%;
+            z-index:1;
+        }
+
+        h4{
+            font-size:180%;
+        }
+
+    }
+
+}

@@ -1,0 +1,361 @@
+nav {
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  z-index: 101;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: right; }
+  nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    padding: 5px; }
+  nav p {
+    padding: 3px; }
+  nav p:hover {
+    background-color: darkslategrey; }
+  nav .link {
+    display: flex;
+    justify-content: space-between; }
+    nav .link img {
+      width: 35px;
+      height: 35px; }
+    nav .link img:hover {
+      background-color: darkslategrey; }
+
+.logoimg {
+  width: 168px;
+  height: 55px;
+  margin-top: -30px;
+  margin-left: -300px;
+  object-fit: contain;
+  background-image: url("../images/logo.png"); }
+
+.banner {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(242, 92, 84, 0.6), rgba(242, 92, 84, 0.6)), url(../images/hero.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: red;
+  display: flex;
+  align-items: center; }
+  .banner .callout {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    vertical-align: center; }
+    .banner .callout .yellowcircle {
+      background: #ffd972;
+      width: 400px;
+      height: 400px;
+      z-index: 2;
+      border-radius: 50%;
+      text-align: center;
+      box-shadow: 0px 10px 6px #00000029;
+      display: flex;
+      flex-direction: column; }
+    .banner .callout h1 {
+      top: 239px;
+      margin-top: 100px;
+      margin-left: -250px;
+      left: 421px;
+      padding: 20px;
+      font-size: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center; }
+      .banner .callout h1 p {
+        width: 100%;
+        height: 100%; }
+      .banner .callout h1 .sub {
+        width: 50%;
+        height: 100%;
+        font-size: 16px;
+        margin-top: -155px;
+        margin-left: 100px;
+        font-weight: normal; }
+      .banner .callout h1 .head {
+        width: 100%;
+        height: 100%;
+        margin-top: 130px; }
+      .banner .callout h1 .smallcircle {
+        margin-left: 190px;
+        margin-top: -150px;
+        width: 170px;
+        background-color: #fcbcb8;
+        border-radius: 50%;
+        padding: 30px;
+        height: 170px;
+        font-size: 10px;
+        position: absolute;
+        z-index: 1;
+        font-weight: normal;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 0px 10px 6px #00000029; }
+    .banner .callout h4 {
+      font-size: 180%; }
+
+.banner2 {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(167, 232, 189, 0.8), rgba(167, 232, 189, 0.8)), url(../images/recipe-hero.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-color: red;
+  display: flex; }
+  .banner2 .contentHolder {
+    margin-top: 15px;
+    width: 80%;
+    min-height: 300px;
+    margin-top: 200px;
+    margin-left: 130px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .banner2 .contentHolder .foodUnit {
+      margin: 10px;
+      width: 48%;
+      min-height: 275px;
+      display: flex; }
+      .banner2 .contentHolder .foodUnit .imgHolder {
+        width: 55%;
+        height: 100%; }
+        .banner2 .contentHolder .foodUnit .imgHolder .foodimg1 {
+          height: 100%;
+          width: 100%;
+          background-image: url(../images/recipe-pizza.jpg);
+          border-radius: 24px;
+          background-position: center;
+          background-size: cover; }
+        .banner2 .contentHolder .foodUnit .imgHolder .foodimg2 {
+          height: 100%;
+          width: 100%;
+          background-image: url(../images/recipe-burger.jpg);
+          border-radius: 24px;
+          background-position: center;
+          background-size: cover; }
+        .banner2 .contentHolder .foodUnit .imgHolder .foodimg3 {
+          height: 100%;
+          width: 100%;
+          background-image: url(../images/recipe-pilaf.jpg);
+          border-radius: 24px;
+          background-position: center;
+          background-size: cover; }
+        .banner2 .contentHolder .foodUnit .imgHolder .foodimg4 {
+          height: 100%;
+          width: 100%;
+          background-image: url(../images/recipe-chowmein.jpg);
+          border-radius: 24px;
+          background-position: center;
+          background-size: cover; }
+      .banner2 .contentHolder .foodUnit .textHolder {
+        width: 45%;
+        height: 100%;
+        background-color: #FFFFFF;
+        border-radius: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .banner2 .contentHolder .foodUnit .textHolder .title {
+          font-size: 15px;
+          font-weight: bold;
+          letter-spacing: 1.5px;
+          text-decoration: underline; }
+        .banner2 .contentHolder .foodUnit .textHolder .desc {
+          margin-bottom: 50px;
+          width: 130px;
+          height: 55px;
+          font-size: 9px;
+          margin-top: 10px;
+          letter-spacing: .9px;
+          text-align: left; }
+        .banner2 .contentHolder .foodUnit .textHolder .time {
+          padding: 10px;
+          display: flex;
+          font-size: 10px;
+          align-items: center; }
+          .banner2 .contentHolder .foodUnit .textHolder .time .clock {
+            background-image: url(../images/time.svg);
+            width: 23px;
+            height: 23px;
+            object-fit: contain;
+            margin-right: 2px; }
+          .banner2 .contentHolder .foodUnit .textHolder .time .serve {
+            background-image: url(../images/servings.svg);
+            width: 23px;
+            height: 23px;
+            object-fit: contain;
+            margin-right: 2px; }
+  .banner2 .footer {
+    margin-right: 300px; }
+  .banner2 .callout {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: -80px;
+    position: fixed; }
+    .banner2 .callout .header {
+      margin-top: -175px;
+      font-size: 25px;
+      z-index: 1; }
+    .banner2 .callout h4 {
+      font-size: 180%; }
+
+.banner3 {
+  min-height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, white, white), url(../images/battle.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  display: flex;
+  align-items: center; }
+  .banner3 .callout {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    color: black;
+    font-family: sans-serif;
+    text-align: left;
+    vertical-align: center;
+    flex-direction: column; }
+    .banner3 .callout form {
+      margin-top: 100px;
+      margin-left: 100px; }
+      .banner3 .callout form label {
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 20px; }
+      .banner3 .callout form input[type=text] {
+        width: 70%;
+        height: 30px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        border: none;
+        border-bottom: 2px solid black; }
+      .banner3 .callout form input[type=submit] {
+        text-align: center;
+        vertical-align: center;
+        font-size: 25px;
+        height: 60px;
+        width: 350px;
+        background-color: #EFA7A7;
+        padding: 20px;
+        border-radius: 26px;
+        box-shadow: 5px 10px 6px #00000029;
+        border: none;
+        opacity: 1;
+        padding-bottom: 30px; }
+    .banner3 .callout h1 {
+      font-size: 230%;
+      z-index: 1; }
+    .banner3 .callout h4 {
+      font-size: 180%; }
+
+.banner4 {
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ffd972;
+  display: flex;
+  align-items: center; }
+  .banner4 .callout {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: sans-serif;
+    text-align: left;
+    vertical-align: center;
+    display: flex; }
+    .banner4 .callout .loginHolder {
+      margin-top: 150px;
+      width: 80%;
+      height: 70%;
+      display: flex;
+      justify-content: center; }
+      .banner4 .callout .loginHolder .divider {
+        width: 40%;
+        height: 100%;
+        background-color: #ffd972;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left; }
+        .banner4 .callout .loginHolder .divider .heading {
+          text-align: left;
+          font-weight: bold;
+          font-size: 30px;
+          margin-bottom: 20px; }
+        .banner4 .callout .loginHolder .divider input[type=text] {
+          border: none;
+          border-bottom: 2px solid black;
+          width: 100%;
+          background-color: #ffd972;
+          margin-bottom: 25px; }
+          .banner4 .callout .loginHolder .divider input[type=text] ::placeholder {
+            color: black; }
+        .banner4 .callout .loginHolder .divider input[type=submit] {
+          width: 100%;
+          border: none;
+          height: 40px;
+          border-radius: 26px;
+          background-color: #ffd972;
+          box-shadow: 0px 10px 6px #00000029; }
+    .banner4 .callout h1 {
+      font-size: 230%;
+      z-index: 1; }
+    .banner4 .callout h4 {
+      font-size: 180%; }
+
+.footer {
+  width: 100%;
+  height: 10%;
+  font-size: 15px;
+  color: #393939;
+  margin-left: -575px;
+  margin-top: 525px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  z-index: 100; }
+  .footer .wrapmiddle {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-betwen; }
+  .footer .wrapright {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; }
+    .footer .wrapright img {
+      width: 20px;
+      height: 20px;
+      margin-left: 20px; }
